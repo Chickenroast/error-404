@@ -1,0 +1,89 @@
+
+
+html {font-size: 100%;} /*16px*/
+
+
+  body {
+    display: inline;
+    background: white;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #000000;
+    position: relative;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+  }
+
+  p {margin-bottom: 1rem;}
+  
+  h1, h2, h3, h4, h5 {
+    margin: 3rem 0 1.38rem;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+/* Mise en page */
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    float: inline-start;
+  }
+
+  .img {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: inline-start;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: rgb(24, 151, 201);
+    color: white;
+    width: auto;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 25px;
+    padding: 15px 32px;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .button:hover {
+    background-color: rgb(6, 6, 63);
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  /* RESPONSIVE */
+
+  @media only screen and (max-width: 700px){
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .link {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+  }
